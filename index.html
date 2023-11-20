@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Intelligent Code Editor">
+
+    <title>ICE</title>
+
+    <link rel="shortcut icon" href="/Assets/favicon.ico" type="image/x-icon">
+    
+    <link rel="stylesheet" href="/style.css">
+
+    <link rel="stylesheet" href="https://cdn.metroui.org.ua/current/metro.css"/>
+
+
+  </head>
+
+  <body class= "main-body">
+      <!-- Header -->
+      <header>
+      
+        <!-- Logo -->
+          <div class="header">
+            <div class="logo">
+                <h1 class="logo-name"><div class="square-logo"></div> ICE </h1>
+            </div>
+  
+            <!-- header social icons-->
+            <div class="header-icon">
+
+                <!-- Twitter icon-->
+              <div class="twitter-icon">
+                <a href="https://twitter.com/rubymuibi" target="_blank">
+                <img src="/Assets/twitter icon.png" alt="An icon of twitter logo"/>
+                </a>
+              </div>
+  
+              <!-- Github icon -->
+              <div class="github-icon">
+                <a href="https://github.com/RubyMuibi" target="_blank">
+                  <img src="/Assets/github icon.png" alt="An icon of github logo"/>
+                </a>
+              </div>
+            
+          </div>
+        </header>
+
+
+    <!-- monaco editor panels-->
+    <div data-role="splitter" class="">
+
+        <div id="editor1-panel" class="d-flex flex-justify-center flex-align-center"></div>
+
+        <div id="editor2-panel" class="d-flex flex-justify-center flex-align-center"></div>
+
+        <div id="editor3-panel" class="d-flex flex-justify-center flex-align-center"></div>
+
+    </div>
+
+
+    <!-- this is the script for js file, monaco, and the splitter -->
+    <script src="https://unpkg.com/monaco-editor@latest/min/vs/loader.js"></script>
+  
+    <script src="https://cdn.metroui.org.ua/current/metro.js"></script>
+
+    <script src="/script.js"></script>
+
+  </body>
+</html>
